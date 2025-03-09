@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+streamlit
+pypdf
+supabase
+langchain-openai
+langchain-community
+python-dotenv
