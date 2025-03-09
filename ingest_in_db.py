@@ -21,7 +21,7 @@ supabase_key = os.environ.get("SUPABASE_SERVICE_KEY")
 supabase: Client = create_client(supabase_url, supabase_key)
 
 # initiate embeddings model
-embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+embeddings = OpenAIEmbeddings(model="text-embedding-3-small", organization="org-f0s48CkOP5NW7YVI9JUtzAWZ")
 
 # load pdf docs from folder 'documents'
 loader = PyPDFDirectoryLoader("documents")

@@ -41,7 +41,7 @@ vector_store = SupabaseVectorStore(
 )
  
 # initiating llm
-llm = ChatOpenAI(model="gpt-4o",temperature=0)
+llm = ChatOpenAI(model="gpt-4o",temperature=0, organization="org-f0s48CkOP5NW7YVI9JUtzAWZ")
 
 # pulling prompt from hub
 prompt = hub.pull("hwchase17/openai-functions-agent")
